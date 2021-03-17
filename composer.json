@@ -1,0 +1,30 @@
+{
+    "name": "onetoweb/trustedshops",
+    "description": "Onetoweb Trustedshops API Client",
+    "keywords": [
+        "api",
+        "php",
+        "trustedshops"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/onetoweb/trustedshops",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan van 't Ende",
+            "email": "jvantende@onetoweb.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "symfony/error-handler": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onetoweb\\Trustedshops\\": "src/"
+        }
+    }
+}
